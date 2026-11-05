@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-11-05T06:06:39.187177+00:00",
+  "python": "3.11.7 (main, Dec  7 2023, 09:09:57)  [GCC UCRT 13.2.0 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "config": {
+    "max_depth": 20,
+    "time_limit": 0.04,
+    "iterations": 1000000,
+    "radius": 2,
+    "max_candidates": 8,
+    "ordered": true,
+    "forcing": true,
+    "iterative": true,
+    "rollout_limit": 60,
+    "exploration": 1.4142135623730951,
+    "seed": 0
+  },
+  "sizes": [
+    7,
+    9,
+    11
+  ],
+  "depths": [
+    2,
+    3
+  ],
+  "seeds": [
+    11,
+    28
+  ],
+  "mode": "all",
+  "status": "complete",
+  "completed_files": [
+    "depth_comparison.csv",
+    "games.csv",
+    "moves.csv",
+    "summary.csv"
+  ],
+  "rules": "X starts; >=5 consecutive wins; blocked ends allowed; no forbidden moves",
+  "method": "Paired colors and identical 4-ply openings per size/seed. Soft wall-clock search budget; process startup excluded.",
+  "limitations": "Candidate filtering and caps are approximate. MCTS cutoffs use heuristic values. Few seeds and short budgets do not establish a reliable strength ranking."
+}

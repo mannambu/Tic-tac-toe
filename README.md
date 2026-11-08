@@ -1,6 +1,4 @@
-# FIVE — Tic-tac-toe AI Lab
-
-Bài tập HW2: mô phỏng trò chơi 5 quân liên tiếp trên bàn **7×7, 9×9, 11×11**, với Backtracking, Alpha-beta và MCTS. Dự án gồm chương trình, kiểm thử và thực nghiệm đến bước 9; chưa bao gồm báo cáo PDF.
+# ASS — Tic-tac-toe AI
 
 ## 1. Khởi chạy
 
